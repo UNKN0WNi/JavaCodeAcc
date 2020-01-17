@@ -9,7 +9,7 @@ package designpattern.adapter;
 public class Adaptee {
 
     public void specificRequest() {
-	System.out.println("特殊的请求！");
+	System.out.println("客户所期待的请求！");
     }
 
 }

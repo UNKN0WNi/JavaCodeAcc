@@ -10,6 +10,7 @@ interface Reciever {
     public void action();
 }
 
+//要执行的命令都定义在执行者类中
 class RecieverA implements Reciever {
 
     @Override

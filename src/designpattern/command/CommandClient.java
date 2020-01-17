@@ -21,6 +21,7 @@ public class CommandClient {
 	Command command = new ConcreteCommand(recievers);
 	Invoker invoker = new Invoker();
 
+	//统一执行命令
 	invoker.setCommand(command);
 	invoker.executeCommand();
 
