@@ -36,6 +36,7 @@ public class OperationFactory {
 	    throw new RuntimeException("unsupported operation");
 	}
 
+	//创建好产品对象，根据输入返回相应对象
 	operation = (Operation) operationClass.newInstance();
 
 	return operation;

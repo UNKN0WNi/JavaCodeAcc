@@ -19,6 +19,7 @@ public class Facade {
 	subSystemFour = new SubSystemFour();
     }
 
+    //对单独的方法进行组合调用，完成需要的服务
     public void methodA() {
 	System.out.println("方法组A:");
 

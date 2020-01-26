@@ -6,7 +6,7 @@ package designpattern.builder;
  * @author liu yuning
  */
 public class Director {
-    //建造指挥者需要了解建造过程。而建造的不一定是对象，可能是实现一个完成的动作
+    //建造指挥者需要了解建造过程，但不需要知道建造细节。而建造的不一定是对象，可能是实现一个完成的动作
     public void construct(Builder builder) {
         builder.buildPartA();
         builder.buildPartB();
