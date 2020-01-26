@@ -12,6 +12,7 @@ public class Calculator {
 	char operator;
 
 	operator = '+';
+	//生产获得对应的操作类
 	operation = OperationFactory.createOperation(operator);
 	operation.numberA = 1.2;
 	operation.numberB = 2.3;

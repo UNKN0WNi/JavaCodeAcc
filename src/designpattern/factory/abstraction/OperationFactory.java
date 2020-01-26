@@ -10,7 +10,7 @@ import designpattern.factory.simple.OperationMul;
 import designpattern.factory.simple.OperationSub;
 
 /**
- * 利用反射改造简单工厂模式，去掉分支判断的逻辑
+ * 利用反射改造实现简单工厂模式，去掉分支判断的逻辑
  * 
  * @author liu yuning
  *

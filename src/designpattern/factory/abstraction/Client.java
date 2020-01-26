@@ -3,7 +3,7 @@ package designpattern.factory.abstraction;
 import designpattern.factory.simple.Operation;
 
 /**
- * 客户端
+ * 这三种工厂方法基本逻辑一样，只是获得类的过程不同
  * 
  * @author liu yuning
  *
