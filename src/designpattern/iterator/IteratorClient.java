@@ -2,7 +2,7 @@ package designpattern.iterator;
 
 /**
  * 迭代器客户端
- * 
+ * 迭代器用于遍历集合，jdk中有集合iterator实现
  * @author liu yuning
  *
  */

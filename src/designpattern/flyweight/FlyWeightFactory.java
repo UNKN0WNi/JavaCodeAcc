@@ -3,7 +3,7 @@ package designpattern.flyweight;
 import java.util.HashMap;
 
 /**
- * 享元工厂
+ * 享元工厂   其实就是用map把创建的单例保存起来
  * 
  * @author liu yuning
  *
