@@ -2,7 +2,7 @@ package designpattern.mediator;
 
 /**
  * 抽象中介者类
- * 
+ * 中介需要知道所有顾客对象，类似于聊天系统服务器
  * @author liu yuning
  *
  */

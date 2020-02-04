@@ -2,6 +2,7 @@ package designpattern.memento;
 
 /**
  * 客户端
+ * Originator实现细节应当是封装的，需要通过备忘录恢复状态
  * 
  * @author liu yuning
  *
@@ -22,7 +23,7 @@ public class MementoClient {
 	originator.setState("Off");
 	originator.show();
 
-	// 通过管理者从备忘录中恢复状态
+	// ！通过管理者从备忘录中恢复状态
 	originator.recoverMemento(careTaker.getMemento());
 	originator.show();
     }

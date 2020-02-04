@@ -1,7 +1,7 @@
 package designpattern.flyweight;
 
 /**
- * 客户端
+ * 享元客户端
  * 
  * @author liu yuning
  *
